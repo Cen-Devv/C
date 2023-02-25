@@ -9,7 +9,6 @@
     int main(void)
     {
         float cents = gent_cents(); //cents for arguments
-        //printf("%f\n", cents);
         int result = mathematical_process(cents); //Mathematical processo in argument
         printf("Coins: %i\n", result);
     }
